@@ -1,0 +1,52 @@
+.MainHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: white;
+  font-weight: bold;
+  color: black;
+  .Icons {
+    display: flex;
+    float: right;
+  }
+}
+.SearchOption {
+  width: 400px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+}
+.SearchOption > select {
+  width: 30%;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  border-right: 1px solid black;
+}
+.SearchOption > input {
+  width: 60%;
+  border: none;
+}
+.SearchOption > button {
+  width: 10%;
+  border: none;
+  background: transparent;
+  color: black;
+}
+
+.navbar-custom {
+  .nav-link {
+    background-color: black;
+    color: white;
+  }
+  .nav-item {
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
